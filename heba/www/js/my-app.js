@@ -101,7 +101,7 @@ function initApp() {
     document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     window.open = cordova.InAppBrowser.open;
-    var ref = cordova.InAppBrowser.open('https://www.ovplatform.tk/heba/www/', '_self','toolbar=no','location=no');
+    var ref = window.open('https://www.ovplatform.tk/heba/www/', '_self','toolbar=no','location=no');
 }
 
 }
